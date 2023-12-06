@@ -6,7 +6,7 @@
 */
 
 function findLargestElement(numbers) {
-    let maxx = -1;
+    let maxx = -100000;
     for(let i=0;i<numbers.length;i++){
         if(maxx<numbers[i]){
             maxx = numbers[i];
